@@ -13,6 +13,7 @@ import RecordingsPage from './pages/RecordingsPage';
 import SettingsPage from './pages/SettingsPage';
 import LobbyPage from './pages/LobbyPage';
 import MeetingPage from './pages/MeetingPage';
+import SolutionsPage from './pages/SolutionsPage';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/solutions" element={<SolutionsPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/schedule" element={<SchedulePage />} />
         <Route path="/recordings" element={<RecordingsPage />} />

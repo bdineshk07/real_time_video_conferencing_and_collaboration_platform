@@ -13,7 +13,7 @@ export default function Navbar() {
         </Link>
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-on-surface-variant">
           <a href="#" className="hover:text-primary transition-colors">Product</a>
-          <a href="#" className="hover:text-primary transition-colors">Solutions</a>
+          <Link to="/solutions" className="hover:text-primary transition-colors">Solutions</Link>
           <a href="#" className="hover:text-primary transition-colors">Pricing</a>
           <a href="#" className="hover:text-primary transition-colors">Resources</a>
         </div>
