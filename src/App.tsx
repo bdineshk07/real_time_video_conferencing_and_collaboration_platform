@@ -16,6 +16,7 @@ import MeetingPage from './pages/MeetingPage';
 import SolutionsPage from './pages/SolutionsPage';
 import PricingPage from './pages/PricingPage';
 import ResourcesPage from './pages/ResourcesPage';
+import ProductPage from './pages/ProductPage';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/product" element={<ProductPage />} />
         <Route path="/solutions" element={<SolutionsPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/resources" element={<ResourcesPage />} />

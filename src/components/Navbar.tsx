@@ -12,7 +12,7 @@ export default function Navbar() {
           The Fluid Exchange
         </Link>
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-on-surface-variant">
-          <a href="#" className="hover:text-primary transition-colors">Product</a>
+          <Link to="/product" className="hover:text-primary transition-colors">Product</Link>
           <Link to="/solutions" className="hover:text-primary transition-colors">Solutions</Link>
           <Link to="/pricing" className="hover:text-primary transition-colors">Pricing</Link>
           <Link to="/resources" className="hover:text-primary transition-colors">Resources</Link>
